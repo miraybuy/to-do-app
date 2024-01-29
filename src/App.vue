@@ -1,7 +1,12 @@
-<script setup></script>
-
+<script setup>
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
+import TasksPage from './pages/TasksPage.vue'
+</script>
 <template>
-  <h1>hellö</h1>
+  <Navbar />
+  <TasksPage />
+  <Footer />
 </template>
-
-<style scoped></style>
+<style scoped>
+</style>
